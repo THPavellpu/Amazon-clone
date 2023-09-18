@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.navbar{
+    height: 60px;
+    width: 1520px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    width: auto; */
+    cursor: pointer;
+}
+.nav-logo{
+    height: 60px;
+    width: 113px;
+   
+}
+.nav-logo img{
+    height: 50px;
+    margin: 4px 2px;
+  
+}
+.border img:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.deliver-adress{
+    margin: 5px 2px 5px 0px;
+    padding:  9px;
+    border: 1px transparent;
+    border-radius:2px ;
+}
+.deliver-adress:hover{
+    color: aliceblue;
+    border: 1px solid;
+}
+.deliver-to{
+    font-size: 0.80rem;
+    margin-left: 14px;
+    color: #cccc;
+}
+.icon-bd{
+    display: flex;
+    align-items: center;
+    
+}
+.bd{
+    font-size: .90rem;
+    margin-left: 2.5px;
+    font-weight: bold;
+}
+
+/*searchbar*/
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#0f1111;
+    width:900px;
+    border: none;
+    /* padding: 10px 4px 10px 3px; */
+}
+.search-input{
+    width: 100%;
+    border: none;
+    
+    /* padding: 7 10 10 0; */
+}
+.all{
+    color: #0f1111;
+    background-color: #f3f3f3;
+    width: 52px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    background-color: rgb(223, 137, 8);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    
+}
+
+.language{
+    display: flex;
+    border: none;
+    
+
+}
+.language-select{
+    height: 37px;
+    background-color: #0f1111;
+    color: #f3f3f3;
+    border: none;
+    
+}
+.signin{
+    padding-left:10px;
+    padding-right:4px;
+}
+.hello{
+    font-size: .80rem;
+    margin-left: 6px;
+}
+.account{
+    
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0f1111;
+    color: #f3f3f3;
+    border: none;
+}
+.r-and-o{
+    padding-left:10px;
+    padding-right:10px;
+}
+.return{
+    font-size: .80rem;
+    margin-left: 6px;
+}
+.orders{
+    
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0f1111;
+    color: #f3f3f3;
+    
+}
+.bal{
+    
+    display: flex;
+    padding-left:10px;
+    padding-right:4px;
+}
+.icon-crt{
+  padding: 2px;
+}
+.cart{
+    font-size: 1rem;
+}
+  
+/*navbar2*/
+.navbar2{
+    display: flex;
+    background-color: #34495E;
+    align-items: center;
+    height: 30px;
+    font-size: .95rem;
+    width: 1520px; 
+    cursor: pointer; 
+}
+.bar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:#34495E;
+    color: white;
+    margin-left: 15px;
+}
+.barall{
+    background-color:#34495E;
+    padding: 0px;
+    margin-left: 8px;
+}
+.hudaoption{
+    display: flex;
+    color: white;
+}
+.hudai{
+    margin:15px
+}
+.hero-image {
+    background-image: url(hero_image.jpg);
+    background-size: 1520px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    height: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    width: 80%;
+    align-items: center;    
+}
+.hero-msg a{
+    color: #34495E;
+    cursor: pointer;
+}
+.shop-section{
+    background-color: #f3f3f3;
+}
+.box{
+    display: flex;
+}
+.box div{
+    background-color:white;
+    width: 24%;
+    height: 305px;
+    border: 2px solid rgb(187, 184, 184);
+    margin-left: 8px;
+    margin-right: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box img{
+    width: 365px;
+    height: 250px;
+    margin-top:22px;
+}
+.product{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box p{
+    margin-top: 10px;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 0%;
+}
+
+
+.shop-section2{
+    background-color: #f3f3f3;
+}
+.box2{
+    display: flex;
+}
+.box2 div{
+    background-color:white;
+    width: 24%;
+    height: 305px;
+    border: 2px solid rgb(187, 184, 184);
+    margin-left: 8px;
+    margin-right: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box2 img{
+    width: 365px;
+    height: 250px;
+    margin-top:22px;
+}
+.product2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box2 p{
+    margin-top: 10px;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 0%;
+}
